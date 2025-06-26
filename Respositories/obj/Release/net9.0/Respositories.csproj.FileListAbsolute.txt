@@ -1,0 +1,5 @@
+D:\FPT MATERIALS\Kì 5\PRN212\Assignment1\Respositories\obj\Release\net9.0\Respositories.csproj.AssemblyReference.cache
+D:\FPT MATERIALS\Kì 5\PRN212\Assignment1\Respositories\obj\Release\net9.0\Respositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT MATERIALS\Kì 5\PRN212\Assignment1\Respositories\obj\Release\net9.0\Respositories.AssemblyInfoInputs.cache
+D:\FPT MATERIALS\Kì 5\PRN212\Assignment1\Respositories\obj\Release\net9.0\Respositories.AssemblyInfo.cs
+D:\FPT MATERIALS\Kì 5\PRN212\Assignment1\Respositories\obj\Release\net9.0\Respositories.csproj.CoreCompileInputs.cache

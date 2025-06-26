@@ -1,0 +1,4 @@
+D:\FPT MATERIALS\Kì 5\PRN212\Assignment1\BusinessObject\obj\Debug\net8.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT MATERIALS\Kì 5\PRN212\Assignment1\BusinessObject\obj\Debug\net8.0\BusinessObject.AssemblyInfoInputs.cache
+D:\FPT MATERIALS\Kì 5\PRN212\Assignment1\BusinessObject\obj\Debug\net8.0\BusinessObject.AssemblyInfo.cs
+D:\FPT MATERIALS\Kì 5\PRN212\Assignment1\BusinessObject\obj\Debug\net8.0\BusinessObject.csproj.CoreCompileInputs.cache

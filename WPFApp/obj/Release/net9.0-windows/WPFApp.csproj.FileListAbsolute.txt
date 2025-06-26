@@ -1,0 +1,16 @@
+D:\FPT MATERIALS\Kì 5\PRN212\Assignment1\WPFApp\obj\Release\net9.0-windows\WPFApp.csproj.AssemblyReference.cache
+D:\FPT MATERIALS\Kì 5\PRN212\Assignment1\WPFApp\obj\Release\net9.0-windows\Admin.baml
+D:\FPT MATERIALS\Kì 5\PRN212\Assignment1\WPFApp\obj\Release\net9.0-windows\CustomerWindow.baml
+D:\FPT MATERIALS\Kì 5\PRN212\Assignment1\WPFApp\obj\Release\net9.0-windows\OrderWindow.baml
+D:\FPT MATERIALS\Kì 5\PRN212\Assignment1\WPFApp\obj\Release\net9.0-windows\ProductWindow.baml
+D:\FPT MATERIALS\Kì 5\PRN212\Assignment1\WPFApp\obj\Release\net9.0-windows\ReportWindow.baml
+D:\FPT MATERIALS\Kì 5\PRN212\Assignment1\WPFApp\obj\Release\net9.0-windows\Admin.g.cs
+D:\FPT MATERIALS\Kì 5\PRN212\Assignment1\WPFApp\obj\Release\net9.0-windows\Customer.g.cs
+D:\FPT MATERIALS\Kì 5\PRN212\Assignment1\WPFApp\obj\Release\net9.0-windows\CustomerWindow.g.cs
+D:\FPT MATERIALS\Kì 5\PRN212\Assignment1\WPFApp\obj\Release\net9.0-windows\MainWindow.g.cs
+D:\FPT MATERIALS\Kì 5\PRN212\Assignment1\WPFApp\obj\Release\net9.0-windows\OrderWindow.g.cs
+D:\FPT MATERIALS\Kì 5\PRN212\Assignment1\WPFApp\obj\Release\net9.0-windows\ProductWindow.g.cs
+D:\FPT MATERIALS\Kì 5\PRN212\Assignment1\WPFApp\obj\Release\net9.0-windows\ReportWindow.g.cs
+D:\FPT MATERIALS\Kì 5\PRN212\Assignment1\WPFApp\obj\Release\net9.0-windows\App.g.cs
+D:\FPT MATERIALS\Kì 5\PRN212\Assignment1\WPFApp\obj\Release\net9.0-windows\WPFApp_MarkupCompile.cache
+D:\FPT MATERIALS\Kì 5\PRN212\Assignment1\WPFApp\obj\Release\net9.0-windows\WPFApp_MarkupCompile.lref

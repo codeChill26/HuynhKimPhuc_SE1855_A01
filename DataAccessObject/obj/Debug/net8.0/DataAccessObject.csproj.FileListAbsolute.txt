@@ -1,0 +1,5 @@
+D:\FPT MATERIALS\Kì 5\PRN212\Assignment1\DataAccessObject\obj\Debug\net8.0\DataAccessObject.csproj.AssemblyReference.cache
+D:\FPT MATERIALS\Kì 5\PRN212\Assignment1\DataAccessObject\obj\Debug\net8.0\DataAccessObject.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT MATERIALS\Kì 5\PRN212\Assignment1\DataAccessObject\obj\Debug\net8.0\DataAccessObject.AssemblyInfoInputs.cache
+D:\FPT MATERIALS\Kì 5\PRN212\Assignment1\DataAccessObject\obj\Debug\net8.0\DataAccessObject.AssemblyInfo.cs
+D:\FPT MATERIALS\Kì 5\PRN212\Assignment1\DataAccessObject\obj\Debug\net8.0\DataAccessObject.csproj.CoreCompileInputs.cache

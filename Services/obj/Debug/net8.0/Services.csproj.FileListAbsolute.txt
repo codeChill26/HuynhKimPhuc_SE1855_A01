@@ -1,0 +1,5 @@
+D:\FPT MATERIALS\Kì 5\PRN212\Assignment1\Services\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
+D:\FPT MATERIALS\Kì 5\PRN212\Assignment1\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT MATERIALS\Kì 5\PRN212\Assignment1\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
+D:\FPT MATERIALS\Kì 5\PRN212\Assignment1\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
+D:\FPT MATERIALS\Kì 5\PRN212\Assignment1\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
