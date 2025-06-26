@@ -10,5 +10,6 @@ namespace Services
     public interface IEmployeesService
     {
         public Employees FindByUsernameAndPassword(string username, string password);
+        List<Employees> GetAllEmployees();
     }
 }

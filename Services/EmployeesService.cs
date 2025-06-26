@@ -19,5 +19,9 @@ namespace Services
         {
             return employeesRepository.FindByUsernameAndPassword(username, password);
         }
+        public List<Employees> GetAllEmployees()
+        {
+            return employeesRepository.GetAllEmployees();
+        }
     }
 }

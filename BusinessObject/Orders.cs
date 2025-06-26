@@ -21,6 +21,10 @@ namespace BusinessObject
             EmployeeID = employeeID;
             OrderDate = orderDate;
         }
+        public Orders()
+        {
+            // Default constructor for EF Core
+        }
         public override string ToString()
         {
             return $"{OrderID}: Customer {CustomerID}, Employee {EmployeeID}, Order Date: {OrderDate.ToShortDateString()}";

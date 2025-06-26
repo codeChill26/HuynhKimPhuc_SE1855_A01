@@ -9,18 +9,16 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <!-- Filter hoặc thêm đơn -->
         <StackPanel Orientation="Horizontal" Margin="0,0,0,10" VerticalAlignment="Top">
-            <Label Content="CustomerID:"/>
+            <Label Content="CustomerID:" VerticalAlignment="Center"/>
             <ComboBox x:Name="cbCustomerID" Width="100" Margin="5"/>
-            <Label Content="EmployeeID:"/>
+            <Label Content="EmployeeID:" VerticalAlignment="Center"/>
             <ComboBox x:Name="cbEmployeeID" Width="100" Margin="5"/>
-            <Label Content="Date:"/>
+            <Label Content="Date:" VerticalAlignment="Center"/>
             <DatePicker x:Name="dpOrderDate" Width="130" Margin="5"/>
-            <Button Content="Add Order" Width="100" Margin="5"/>
+            <Button Content="Add Order" Width="100" Margin="5" Click="BtnAddOrder_Click"/>
         </StackPanel>
 
-        <!-- Danh sách đơn hàng -->
         <ListView x:Name="lvOrders" Grid.Row="1" Margin="0,10,0,10">
             <ListView.View>
                 <GridView>
@@ -32,11 +30,10 @@
             </ListView.View>
         </ListView>
 
-        <!-- Xóa hoặc xem chi tiết -->
+        
         <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center">
-            <Button Content="Delete" Width="100" Margin="5" />
-            <Button Content="View Details" Width="100" Margin="5"/>
+            <Button Content="Delete" Width="100" Margin="5" Click="BtnDeleteOrder_Click"/>
+            <Button Content="View Details" Width="100" Margin="5" Click="BtnViewOrderDetails_Click"/>
         </StackPanel>
     </Grid>
 </Window>
-    

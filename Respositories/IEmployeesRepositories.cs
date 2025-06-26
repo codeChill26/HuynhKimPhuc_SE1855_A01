@@ -10,5 +10,6 @@ namespace Respositories
     public interface IEmployeesRepositories
     {
         public Employees FindByUsernameAndPassword(string username, string password);
+        List<Employees> GetAllEmployees();
     }
 }

@@ -15,5 +15,10 @@ namespace DataAccessObject
         {
             return context.Employees.FirstOrDefault(e => e.UserName ==username && e.Password ==password);
         }
+
+        public List<Employees> GetAllEmployees()
+        {
+            return context.Employees.ToList();
+        }
     }
 }

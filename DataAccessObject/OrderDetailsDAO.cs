@@ -1,12 +1,16 @@
-﻿using System;
+﻿using BusinessObject;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DataAccessObject
 {
-    internal class OrderDetailsDAO
+    public class OrderDetailDAO
     {
+        private readonly AppDbContext context = new AppDbContext();
+
+        public List<OrderDetails> GetOrderDetailsByOrderId(int orderId)
+        {
+            return context.OrderDetails.Where(o => o.OrderID == orderId).ToList();
+        }
     }
 }

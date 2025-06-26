@@ -9,3 +9,15 @@ D:\FPT MATERIALS\Kì 5\PRN212\Assignment1\BusinessObject\obj\Debug\net9.0\Busine
 D:\FPT MATERIALS\Kì 5\PRN212\Assignment1\BusinessObject\obj\Debug\net9.0\refint\BusinessObject.dll
 D:\FPT MATERIALS\Kì 5\PRN212\Assignment1\BusinessObject\obj\Debug\net9.0\BusinessObject.pdb
 D:\FPT MATERIALS\Kì 5\PRN212\Assignment1\BusinessObject\obj\Debug\net9.0\ref\BusinessObject.dll
+D:\FPT MATERIALS\Kì 5\PRN212\HuynhKimPhuc_SE1855_A01\BusinessObject\bin\Debug\net9.0\BusinessObject.deps.json
+D:\FPT MATERIALS\Kì 5\PRN212\HuynhKimPhuc_SE1855_A01\BusinessObject\bin\Debug\net9.0\BusinessObject.dll
+D:\FPT MATERIALS\Kì 5\PRN212\HuynhKimPhuc_SE1855_A01\BusinessObject\bin\Debug\net9.0\BusinessObject.pdb
+D:\FPT MATERIALS\Kì 5\PRN212\HuynhKimPhuc_SE1855_A01\BusinessObject\obj\Debug\net9.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT MATERIALS\Kì 5\PRN212\HuynhKimPhuc_SE1855_A01\BusinessObject\obj\Debug\net9.0\BusinessObject.AssemblyInfoInputs.cache
+D:\FPT MATERIALS\Kì 5\PRN212\HuynhKimPhuc_SE1855_A01\BusinessObject\obj\Debug\net9.0\BusinessObject.AssemblyInfo.cs
+D:\FPT MATERIALS\Kì 5\PRN212\HuynhKimPhuc_SE1855_A01\BusinessObject\obj\Debug\net9.0\BusinessObject.csproj.CoreCompileInputs.cache
+D:\FPT MATERIALS\Kì 5\PRN212\HuynhKimPhuc_SE1855_A01\BusinessObject\obj\Debug\net9.0\BusinessObject.sourcelink.json
+D:\FPT MATERIALS\Kì 5\PRN212\HuynhKimPhuc_SE1855_A01\BusinessObject\obj\Debug\net9.0\BusinessObject.dll
+D:\FPT MATERIALS\Kì 5\PRN212\HuynhKimPhuc_SE1855_A01\BusinessObject\obj\Debug\net9.0\refint\BusinessObject.dll
+D:\FPT MATERIALS\Kì 5\PRN212\HuynhKimPhuc_SE1855_A01\BusinessObject\obj\Debug\net9.0\BusinessObject.pdb
+D:\FPT MATERIALS\Kì 5\PRN212\HuynhKimPhuc_SE1855_A01\BusinessObject\obj\Debug\net9.0\ref\BusinessObject.dll
