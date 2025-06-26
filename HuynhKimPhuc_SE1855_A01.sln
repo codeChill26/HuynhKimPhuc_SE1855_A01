@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Respositories", "Respositor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{3B47F023-A1DD-4DA4-A6ED-6D94560D40C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HuynhKimPhucWPF", "WPFApp\HuynhKimPhucWPF.csproj", "{87F6F61A-3A30-4E33-A432-D7134FFB400E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HuynhKimPhucWPF", "HuynhKimPhucWPF\HuynhKimPhucWPF.csproj", "{959EF05C-69A9-5053-D2A3-CE114EE9927E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{3B47F023-A1DD-4DA4-A6ED-6D94560D40C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B47F023-A1DD-4DA4-A6ED-6D94560D40C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B47F023-A1DD-4DA4-A6ED-6D94560D40C4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{87F6F61A-3A30-4E33-A432-D7134FFB400E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{87F6F61A-3A30-4E33-A432-D7134FFB400E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{87F6F61A-3A30-4E33-A432-D7134FFB400E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{87F6F61A-3A30-4E33-A432-D7134FFB400E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{959EF05C-69A9-5053-D2A3-CE114EE9927E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{959EF05C-69A9-5053-D2A3-CE114EE9927E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{959EF05C-69A9-5053-D2A3-CE114EE9927E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{959EF05C-69A9-5053-D2A3-CE114EE9927E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
