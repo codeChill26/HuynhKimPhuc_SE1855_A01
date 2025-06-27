@@ -12,6 +12,9 @@ namespace Respositories
         {
             return dao.GetOrderDetailsByOrderId(orderId);
         }
-
+        public void DeleteOrderDetail(int orderId, int productId)
+        {
+            dao.DeleteOrderDetail(orderId, productId);
+        }
     }
 }

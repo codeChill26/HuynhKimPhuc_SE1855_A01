@@ -12,15 +12,15 @@ namespace WPFApp
         private readonly OrderService orderService;
         private readonly CustomerService customerService;
         private readonly EmployeesService employeesService;
+        private readonly OrderDetailService orderDetailService;
 
         public OrderWindow()
         {
             InitializeComponent();
-
-            // Khởi tạo service
             orderService = new OrderService();
             customerService = new CustomerService();
             employeesService = new EmployeesService();
+            orderDetailService = new OrderDetailService();
 
             LoadComboBoxes();
             DisplayAllOrders();
@@ -45,32 +45,39 @@ namespace WPFApp
 
         private void BtnAddOrder_Click(object sender, RoutedEventArgs e)
         {
-            if (cbCustomerID.SelectedValue == null || cbEmployeeID.SelectedValue == null)
+            var customerId = cbCustomerID.SelectedValue;
+            var employeeId = cbEmployeeID.SelectedValue;
+            var orderDate = dpOrderDate.SelectedDate ?? DateTime.Now;
+
+            if (customerId ==null || employeeId == null)
             {
                 MessageBox.Show("Please select both CustomerID and EmployeeID.");
                 return;
             }
 
-            int customerId = Convert.ToInt32(cbCustomerID.SelectedValue);
-            int employeeId = Convert.ToInt32(cbEmployeeID.SelectedValue);
-            DateTime orderDate = dpOrderDate.SelectedDate ?? DateTime.Now;
-
             var order = new Orders
             {
-                CustomerID = customerId,      // Đây là string
-                EmployeeID = employeeId,      // Đây là int
+                CustomerID = Convert.ToInt32(customerId),
+                EmployeeID = Convert.ToInt32(employeeId),
                 OrderDate = orderDate
             };
 
-            orderService.AddOrder(order);
-            MessageBox.Show("Order added successfully.");
-            DisplayAllOrders();
+            try
+            {
+                orderService.AddOrder(order);
+                MessageBox.Show("Order added successfully.");
+                DisplayAllOrders();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Failed to add order: " + ex.Message);
+            }
         }
 
         private void BtnDeleteOrder_Click(object sender, RoutedEventArgs e)
         {
             var selectedOrder = lvOrders.SelectedItem as Orders;
-
+                
             if (selectedOrder == null)
             {
                 MessageBox.Show("Please select an order to delete.");
@@ -79,9 +86,23 @@ namespace WPFApp
 
             if (MessageBox.Show("Are you sure you want to delete this order?", "Confirm", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
             {
-                orderService.DeleteOrder(selectedOrder.OrderID);
-                MessageBox.Show("Order deleted.");
-                DisplayAllOrders();
+                try
+                {
+                    var orderDetails = orderDetailService.GetOrderDetailsByOrderId(selectedOrder.OrderID);
+                    foreach (var detail in orderDetails)
+                    {
+                        orderDetailService.DeleteOrderDetail(detail.OrderID, detail.ProductID);
+                    }
+
+                    orderService.DeleteOrder(selectedOrder.OrderID);
+                    MessageBox.Show("Order deleted successfully.");
+                    DisplayAllOrders();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Cannot delete this order. It may contain order details.\n" + ex.Message,
+                                    "Delete Failed", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
             }
         }
 

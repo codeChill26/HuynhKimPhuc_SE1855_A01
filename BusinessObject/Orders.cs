@@ -14,9 +14,8 @@ namespace BusinessObject
         public int CustomerID { get; set; }
         public int EmployeeID { get; set; }
         public DateTime OrderDate { get; set; }
-        public Orders(int orderID, int customerID, int employeeID, DateTime orderDate)
+        public Orders(int customerID, int employeeID, DateTime orderDate)
         {
-            OrderID = orderID;
             CustomerID = customerID;
             EmployeeID = employeeID;
             OrderDate = orderDate;

@@ -81,10 +81,20 @@ namespace WPFApp
 
             if (MessageBox.Show("Are you sure you want to delete this product?", "Confirm", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
             {
-                productService.DeleteProducts(productId);
-                DisplayAllProducts();
+                try
+                {
+                    productService.DeleteProducts(productId);
+                    MessageBox.Show("Product deleted successfully.");
+                    DisplayAllProducts();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Cannot delete product. It may be referenced in orders.\n" + ex.Message,
+                        "Delete Failed", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
             }
         }
+
 
         private void BtnSearch_Click(object sender, RoutedEventArgs e)
         {

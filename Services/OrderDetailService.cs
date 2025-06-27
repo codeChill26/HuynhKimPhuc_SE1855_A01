@@ -17,5 +17,10 @@ namespace Services
         {
             return repo.GetOrderDetailsByOrderId(orderId);
         }
+        public void DeleteOrderDetail(int orderId, int productId)
+        {
+            repo.DeleteOrderDetail(orderId, productId);
+        }
     }
+
 }

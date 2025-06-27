@@ -52,7 +52,6 @@ namespace WPFApp
         }
         private void BtnDelete_Click(object sender, RoutedEventArgs e)
         {
-            // Lấy khách hàng được chọn từ ListView
             var selectedCustomer = lvCustomers.SelectedItem as Customers;
 
             if (selectedCustomer == null)
@@ -61,10 +60,7 @@ namespace WPFApp
                 return;
             }
 
-            // Lấy đúng ID
             int customerId = selectedCustomer.CustomerID;
-
-            // Tận dụng hàm GetCustomerById nếu bạn muốn xác nhận lại từ DB (tùy)
             var customer = customerService.GetCustomerById(customerId);
 
             if (customer == null)
@@ -75,10 +71,19 @@ namespace WPFApp
 
             if (MessageBox.Show("Are you sure you want to delete this customer?", "Confirm", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
             {
-                customerService.DeleteCustomers(customerId);
-                DisplayAllCustomers();
+                try
+                {
+                    customerService.DeleteCustomers(customerId);
+                    MessageBox.Show("Customer deleted successfully.");
+                    DisplayAllCustomers();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Cannot delete customer. They may have related orders.\n" + ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
             }
         }
+
         private void BtnEdit_Click(object sender, RoutedEventArgs e)
         {
             var selectedCustomer = lvCustomers.SelectedItem as Customers;
